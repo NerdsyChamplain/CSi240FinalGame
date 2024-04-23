@@ -6,18 +6,17 @@ class ability
 {
 protected:
 	//booleans to check whether or not the respective part can do certain actions
-	bool canAttack, canDefend, canHeal;
+	bool canAttack, canHeal;
 	//values to modify the actions so some parts can be better at doing things than others ex. staff arm better at healing than sword arm, but worse at defense
-	int defMod, atMod, healMod;
+	int atMod, healMod;
 public:
 	//functions to interact with parts, through damage and support effects
-	void attackPart(part, int);
-	void defend(part, int);
-	void heal(part, int);
+	void attackPart(character, part, int);
+	void healPart(character, part, int);
 	//default constructor
 	ability();
 	//constructor
-	ability(bool, bool, bool, int, int, int);
+	ability(bool, bool, int, int);
 	//deconstructor
 	~ability();
 };
@@ -36,7 +35,7 @@ public:
 	//default constructor
 	part();
 	//constructor
-	part(int, int, std::string);
+	part(int, std::string);
 	//deconstructor
 	~part();
 	//functions to adjust and retrieve health values
@@ -48,7 +47,7 @@ public:
 	//function to retrieve the name of the part
 	std::string getName();
 	//functions to adjust and retrieve the living status of the part
-	void setAlive();
+	void setAlive(bool);
 	bool getAlive();
 };
 
@@ -83,12 +82,18 @@ class character
 {
 protected:
 	//ints for the overall health, damage, and defense of the character. Seperate from the parts' data
-	int maxHealth, damage, defense;
-	//bool that will control whether or not the character is still alive
-	bool isAlive;
+	int maxHealth, damage, defense, curHealth;
+	//bool that will control whether or not the character is still alive, and whether or not the character is guarding
+	bool isAlive, isGuarding;
 public:
 	//default constructor
 	character();
 	//constructor
 	character(int, int, int);
+	//functions for health
+	int getMaxhealth();
+	int getCurHealth();
+	void subFromHealth(int);
+	void addToHealth(int);
+
 };
