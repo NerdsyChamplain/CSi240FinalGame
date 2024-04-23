@@ -1,4 +1,3 @@
-
 #pragma once
 #include <string>
 
@@ -51,7 +50,7 @@ public:
 	bool getAlive();
 };
 
-class arm : part
+class arm : public part
 {
 protected:
 	ability capabilities;
@@ -60,19 +59,19 @@ public:
 
 };
 
-class chest : part
+class chest : public part
 {
 protected:
 	ability capabilities;
 };
 
-class head : part
+class head : public part
 {
 protected:
-	ability capabilities;
+
 };
 
-class leg : part
+class leg : public part
 {
 protected:
 	ability capabilities;
@@ -85,15 +84,34 @@ protected:
 	int maxHealth, damage, defense, curHealth;
 	//bool that will control whether or not the character is still alive, and whether or not the character is guarding
 	bool isAlive, isGuarding;
+	//the parts of the character's body
+	part armOne, armTwo, legOne, legTwo, torso, head;
+	//the character's name
+	std::string name;
 public:
 	//default constructor
 	character();
 	//constructor
-	character(int, int, int);
+	character(int, int, int, part, part, part, part, part, part, std::string);
+	//deconstructor
+	~character();
 	//functions for health
 	int getMaxhealth();
 	int getCurHealth();
 	void subFromHealth(int);
 	void addToHealth(int);
-
+	//functions for damage and defense values
+	int getDamage();
+	int getDefense();
+	void setDamage(int);
+	void setDefense(int);
+	//boolean functions for isAlive and isGuarding
+	bool getAlive();
+	bool getGuarding();
+	void setAlive(bool);
+	void setGuarding(bool);
+	void autoSetAlive();
+	//functions for the character's name
+	std::string getName();
+	void setName(std::string);
 };
