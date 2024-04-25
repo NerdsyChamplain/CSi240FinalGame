@@ -1,5 +1,5 @@
 #include "ability.h"
-#include "character.h"
+
 
 //implementation for the ability class
 //constructors
@@ -49,7 +49,7 @@ void ability::attackPart(character charTarg, part target, int damage)
 void ability::healPart(character charTarg, part target, int healing)
 {
     int healingDone = healing + healMod;
-    if(target.isAlive == true)
+    if(target.getAlive() == true)
     {
         target.addToHealth(healingDone);
         charTarg.addToHealth(healingDone);

@@ -3,7 +3,7 @@
 #include <iostream>
 #include "ability.h"
 
-
+class ability;
 
 class part
 {
@@ -37,7 +37,7 @@ public:
 	virtual void printInfo();
 	virtual ability getAbilities();
 	friend class character;
-	friend class ability;
+
 };
 
 class arm : public part
@@ -45,26 +45,26 @@ class arm : public part
 protected:
 	ability capabilities;
 public:
-	arm() : part(){};
-	arm(int, std::string, ability) : part() {};
-	void printInfo();
-	ability getAbilities();
+	arm();
+	arm(int, std::string, ability);
+	void printInfo() override;
+	ability getAbilities() override;
 };
 
 class chest : public part
 {
 public:
-	chest() : part(){};
-	chest(int, std::string) : part() {};
-	void printInfo();
+	chest();
+	chest(int, std::string);
+	void printInfo() override;
 };
 
 class head : public part
 {
 public:
-	head() : part(){};
-	head(int, std::string) : part() {};
-	void printInfo();
+	head();
+	head(int, std::string);
+	void printInfo() override;
 };
 
 class leg : public part
@@ -72,10 +72,10 @@ class leg : public part
 protected:
 	ability capabilities;
 public:
-	leg() : part(){};
-	leg(int, std::string, ability) : part() {};
-	void printInfo();
-	ability getAbilities();
+	leg();
+	leg(int, std::string, ability);
+	void printInfo() override;
+	ability getAbilities() override;
 };
 
 class character
@@ -118,9 +118,9 @@ public:
 	//function to print the full info and status of the player
 	void printFullInfo();
 	//function to find whether or not the player can attack and if so which part is the first that can
-	part getAttackAbility();
+	part* getAttackAbility();
 	//same as above but with healing
-	part getHealAbility();
+	part* getHealAbility();
 	//part getter for damage purposes
-	part getPart(int);
+	part* getPart(int);
 };

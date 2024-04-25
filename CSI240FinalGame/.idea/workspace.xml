@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="19ce3d23-dbc6-4793-aa36-e90b67b08890" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.vs/CSI240FinalGame/FileContentIndex/1b8ce2fd-4da4-48ea-a783-547c2f1178ef.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/CSI240FinalGame/FileContentIndex/b191867c-75ac-4fae-b8a5-c0bb19c98c7f.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/CSI240FinalGame/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/CSI240FinalGame/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/CSI240FinalGame/v17/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/CSI240FinalGame/v17/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/CSI240FinalGame/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/CSI240FinalGame/v17/DocumentLayout.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/CSI240FinalGame/v17/ipch/AutoPCH/2ed783e65c0b463f/MAIN.ipch" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/CSI240FinalGame/v17/ipch/AutoPCH/2ed783e65c0b463f/MAIN.ipch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/CSI240FinalGame/v17/ipch/AutoPCH/728ab1c6b120f8af/CHARACTER.ipch" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/CSI240FinalGame/v17/ipch/AutoPCH/728ab1c6b120f8af/CHARACTER.ipch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/CSI240FinalGame/v17/ipch/AutoPCH/95f3d3ac643f0346/ABILITY.ipch" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/CSI240FinalGame/v17/ipch/AutoPCH/95f3d3ac643f0346/ABILITY.ipch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSI240FinalGame/ability.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CSI240FinalGame/ability.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSI240FinalGame/ability.h" beforeDir="false" afterPath="$PROJECT_DIR$/CSI240FinalGame/ability.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSI240FinalGame/character.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CSI240FinalGame/character.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSI240FinalGame/character.h" beforeDir="false" afterPath="$PROJECT_DIR$/CSI240FinalGame/character.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSI240FinalGame/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CSI240FinalGame/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSI240FinalGame/x64/Debug/CSI240FinalGame.log" beforeDir="false" afterPath="$PROJECT_DIR$/CSI240FinalGame/x64/Debug/CSI240FinalGame.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSI240FinalGame/x64/Debug/CSI240FinalGame.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/CSI240FinalGame/x64/Debug/CSI240FinalGame.tlog/CL.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSI240FinalGame/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/CSI240FinalGame/x64/Debug/vc143.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSI240FinalGame/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CSI240FinalGame/x64/Debug/vc143.pdb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2fblnlkz6InHmcUqKu3IEOC9lyo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Josh/Documents/GitHub/CSi240FinalGame/CSI240FinalGame",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="19ce3d23-dbc6-4793-aa36-e90b67b08890" name="Changes" comment="" />
+      <created>1714077827787</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714077827787</updated>
+      <workItem from="1714077828837" duration="59000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

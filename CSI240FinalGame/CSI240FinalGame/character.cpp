@@ -282,82 +282,82 @@ void part::printStatus()
             head.printStatus();
         }
     }
-    part character::getAttackAbility()
+    part* character::getAttackAbility()
     {
         if(armOne.getAlive() == true && armOne.getAbilities().getCanAttack() == true)
         {
-            return armOne;
+            return &armOne;
         }
         else if(armTwo.getAlive() == true && armTwo.getAbilities().getCanAttack() == true)
         {
-            return armTwo;
+            return &armTwo;
         }
         else if(legOne.getAlive() == true && legOne.getAbilities().getCanAttack() == true)
         {
-            return legOne;
+            return &legOne;
         }
         else if(legTwo.getAlive() == true && legTwo.getAbilities().getCanAttack() == true)
         {
-            return legTwo;
+            return &legTwo;
         }
-        /*else
+        else
         {
             return NULL;
-        }*/
+        }
     }
-    part character::getHealAbility()
+    part* character::getHealAbility()
     {
         if(armOne.getAlive() == true && armOne.getAbilities().getCanHeal() == true)
         {
-            return armOne;
+            return &armOne;
         }
         else if(armTwo.getAlive() == true && armTwo.getAbilities().getCanHeal() == true)
         {
-            return armTwo;
+            return &armTwo;
         }
         else if(legOne.getAlive() == true && legOne.getAbilities().getCanHeal() == true)
         {
-            return legOne;
+            return &legOne;
         }
         else if(legTwo.getAlive() == true && legTwo.getAbilities().getCanHeal() == true)
         {
-            return legTwo;
+            return &legTwo;
         }
-       /* else
+       else
         {
             return NULL;
-        }*/
+        }
     }
-    part character::getPart(int index)
+    part* character::getPart(int index)
     {
         switch(index)
         {
             case(1):
-            return armOne;
+            return &armOne;
             break;
 
             case(2):
-            return armTwo;
+            return &armTwo;
             break;
 
             case(3):
-            return legOne;
+            return &legOne;
             break;
 
             case(4):
-            return legTwo;
+            return &legTwo;
             break;
 
             case(5):
-            return torso;
+            return &torso;
             break;
 
             case(6):
-            return head;
+            return &head;
             break;
 
             default:
-            //return NULL;
+            return NULL;
             break;
         }
     }

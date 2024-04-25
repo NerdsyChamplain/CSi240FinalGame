@@ -1,4 +1,13 @@
+#pragma once
 #include "character.h"
+
+class part;
+
+class character;
+
+class arm;
+
+class leg;
 
 class ability
 {
@@ -25,4 +34,6 @@ public:
 	//FRIENDSHIP : )
 	friend class part;
 	friend class character;
+	friend class arm;
+	friend class leg;
 };
