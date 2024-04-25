@@ -1,5 +1,6 @@
 #pragma once
 #include <string>
+#include <iostream>
 
 class ability
 {
@@ -9,15 +10,15 @@ protected:
 	//values to modify the actions so some parts can be better at doing things than others ex. staff arm better at healing than sword arm, but worse at defense
 	int atMod, healMod;
 public:
-	//functions to interact with parts, through damage and support effects
-	void attackPart(character, part, int);
-	void healPart(character, part, int);
 	//default constructor
 	ability();
 	//constructor
 	ability(bool, bool, int, int);
 	//deconstructor
 	~ability();
+	//functions to interact with parts, through damage and support effects
+	void attackPart(character, part, int);
+	void healPart(character, part, int);
 	//information displayer
 	std::string printAbility();
 	//functions to get booleans
@@ -59,6 +60,7 @@ public:
 	//information functions, one will be virtual to be overriden
 	void printStatus();
 	virtual void printInfo();
+	virtual ability getAbilities();
 	friend class character;
 	friend class ability;
 };
@@ -68,24 +70,25 @@ class arm : public part
 protected:
 	ability capabilities;
 public:
-	arm() : part();
-	arm(int, std::string, ability) : part(int, std::string);
+	arm() : part(){};
+	arm(int, std::string, ability) : part() {};
 	void printInfo();
+	ability getAbilities();
 };
 
 class chest : public part
 {
 public:
-	chest() : part();
-	chest(int, std::string) : part(int, std::string);
+	chest() : part(){};
+	chest(int, std::string) : part() {};
 	void printInfo();
 };
 
 class head : public part
 {
 public:
-	head() : part();
-	head(int, std::string) : part(int, std::string);
+	head() : part(){};
+	head(int, std::string) : part() {};
 	void printInfo();
 };
 
@@ -94,9 +97,10 @@ class leg : public part
 protected:
 	ability capabilities;
 public:
-	leg() : part();
-	leg(int, std::string, ability) : part(int, std::string);
+	leg() : part(){};
+	leg(int, std::string, ability) : part() {};
 	void printInfo();
+	ability getAbilities();
 };
 
 class character

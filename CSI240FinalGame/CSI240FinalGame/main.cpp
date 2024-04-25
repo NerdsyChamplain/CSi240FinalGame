@@ -10,22 +10,22 @@ int menu(character charOne, character charTwo)
 	int choice = 1, targetChoice;
 	do
 	{
-		std::cout << "1: Redisplay tutorial information" << endl;
-		std::cout << "2: Display Player One character info and status" << endl;
-		std::cout << "3: Display Player Two character info and status" << endl;
-		std::cout << "4: Player One Attack" << endl;
-		std::cout << "5: Player One Heal" << endl;
-		std::cout << "6: Player Two Attack" << endl;
-		std::cout << "7: Player Two Heal" << endl;
-		std::cout << "8: Abort Program" << endl;
+		std::cout << "1: Redisplay tutorial information" << std::endl;
+		std::cout << "2: Display Player One character info and status" << std::endl;
+		std::cout << "3: Display Player Two character info and status" << std::endl;
+		std::cout << "4: Player One Attack" << std::endl;
+		std::cout << "5: Player One Heal" << std::endl;
+		std::cout << "6: Player Two Attack" << std::endl;
+		std::cout << "7: Player Two Heal" << std::endl;
+		std::cout << "8: Abort Program" << std::endl;
 		std::cin >> choice;
 		switch(choice)
 		{
 			case(1):
-			std::cout << "Welcome to my final project game for CSI 240." << endl << "This is a turn based combat game where two players try to defeat each other." << endl;
-			std::cout << "Each player has three actions: Heal, Defend, and Attack." << endl <<"When attacking and healing you get to choose which body part you target." << endl;
-			std::cout << "A player loses when they lose one of the following: Their max health, their head, their torso, or all of their arms and legs." << endl;
-			std::cput << "Player one will have higher defense but lower offense while player two has higher offense but lower defense." << endl;
+			std::cout << "Welcome to my final project game for CSI 240." << std::endl << "This is a turn based combat game where two players try to defeat each other." << std::endl;
+			std::cout << "Each player has three actions: Heal, Defend, and Attack." << std::endl <<"When attacking and healing you get to choose which body part you target." << std::endl;
+			std::cout << "A player loses when they lose one of the following: Their max health, their head, their torso, or all of their arms and legs." << std::endl;
+			std::cout << "Player one will have higher defense but lower offense while player two has higher offense but lower defense." << std::endl;
 			break;
 
 			case(2):
@@ -39,9 +39,9 @@ int menu(character charOne, character charTwo)
 			case(4):
 			if(charOne.getAttackAbility() != NULL)
 			{
-					std::cout << "Potential targets: " << endl;
+					std::cout << "Potential targets: " << std::endl;
 			charTwo.printFullInfo();
-			std::cout << "1: ArmOne \n 2: ArmTwo \n 3: LegOne \n 4: LegTwo \n 5: Chest \n 6: Head";
+			std::cout << "1: ArmOne \n 2: ArmTwo \n 3: LegOne \n 4: LegTwo \n 5: Chest \n 6: Head \n";
 			std::cin >> targetChoice;
 				switch(targetChoice)
 				{
@@ -88,22 +88,22 @@ int menu(character charOne, character charTwo)
 					break;
 
 					default:
-					std::cout << "Not a valid target" << endl;
+					std::cout << "Not a valid target" << std::endl;
 					break;
 			}
 			}
 			else
 			{
-				std::cout << "This player can no longer attack" << endl;
+				std::cout << "This player can no longer attack" << std::endl;
 			}
 			break;
 
 			case(5):
-			if(charOne.getHealAbility!= NULL)
+			if(charOne.getHealAbility() != NULL)
 			{
-				std::cout << "Potential healing targets (player will heal same amount regardless of chosen part): " << endl;
+				std::cout << "Potential healing targets (player will heal same amount regardless of chosen part): " << std::endl;
 			charOne.printFullInfo();
-			std::cout << "1: ArmOne \n 2: ArmTwo \n 3: LegOne \n 4: LegTwo \n 5: Chest \n 6: Head";
+			std::cout << "1: ArmOne \n 2: ArmTwo \n 3: LegOne \n 4: LegTwo \n 5: Chest \n 6: Head \n";
 			std::cin >> targetChoice;
 			switch(targetChoice)
 			{
@@ -132,21 +132,21 @@ int menu(character charOne, character charTwo)
 				break;
 
 				default:
-				std::cout << "That is not a valid target" << endl;
+				std::cout << "That is not a valid target" << std::endl;
 				break;
 			}
 			}
 			else
 			{
-				std::cout << "This player can no longer heal" << endl;
+				std::cout << "This player can no longer heal" << std::endl;
 			}
 			
 			break;
 
 			case(6):
-			std::cout << "Potential targets: " << endl;
+			std::cout << "Potential targets: " << std::endl;
 			charOne.printFullInfo();
-			std::cout << "1: ArmOne \n 2: ArmTwo \n 3: LegOne \n 4: LegTwo \n 5: Chest \n 6: Head";
+			std::cout << "1: ArmOne \n 2: ArmTwo \n 3: LegOne \n 4: LegTwo \n 5: Chest \n 6: Head \n";
 			std::cin >> targetChoice;
 			switch(targetChoice)
 			{
@@ -193,17 +193,17 @@ int menu(character charOne, character charTwo)
 				break;
 
 				default:
-				std::cout << "Not a valid target" << endl;
+				std::cout << "Not a valid target" << std::endl;
 				break;
 			}
 			break;
 
 			case(7):
-			if(charTwo.getHealAbility!= NULL)
+			if(charTwo.getHealAbility() != NULL)
 			{
-				std::cout << "Potential healing targets (player will heal same amount regardless of chosen part): " << endl;
+				std::cout << "Potential healing targets (player will heal same amount regardless of chosen part): " << std::endl;
 			charTwo.printFullInfo();
-			std::cout << "1: ArmOne \n 2: ArmTwo \n 3: LegOne \n 4: LegTwo \n 5: Chest \n 6: Head";
+			std::cout << "1: ArmOne \n 2: ArmTwo \n 3: LegOne \n 4: LegTwo \n 5: Chest \n 6: Head \n";
 			std::cin >> targetChoice;
 			switch(targetChoice)
 			{
@@ -232,13 +232,13 @@ int menu(character charOne, character charTwo)
 				break;
 
 				default:
-				std::cout << "That is not a valid target" << endl;
+				std::cout << "That is not a valid target" << std::endl;
 				break;
 			}
 			}
 			else
 			{
-				std::cout << "This player can no longer heal" << endl;
+				std::cout << "This player can no longer heal" << std::endl;
 			}
 			break;
 
@@ -247,7 +247,7 @@ int menu(character charOne, character charTwo)
 			break;
 
 			default:
-			std::cout << "Invalid value entered, try again" << endl;
+			std::cout << "Invalid value entered, try again" << std::endl;
 			break;
 		}
 	}while(choice != 8);
@@ -264,32 +264,32 @@ int main()
 	const int OFF_DAMAGE = 10, DEF_DAMAGE = 5, OFF_DEFENSE = 2, DEF_DEFENSE = 5, OFF_HEAL = 5, DEF_HEAL = 10;
 	ability* playOneArms = new ability(true, true, DEF_DAMAGE, DEF_HEAL);
 	ability* playOneLegs = new ability(true, false, DEF_DAMAGE, DEF_HEAL);
-	arm* playOneArmOne = new arm(MAX_LIMB_HEALTH, "PlayerOneArmOne", playOneArms);
-	arm* playOneArmTwo = new arm(MAX_LIMB_HEALTH, "PlayerOneArmTwo", playOneArms);
-	leg* playOneLegOne = new leg(MAX_LIMB_HEALTH, "PlayerOneLegOne", playOneLegs);
-	leg* playOneLegTwo = new leg(MAX_LIMB_HEALTH, "PlayerOneLegTwo", playOneLegs);
+	arm* playOneArmOne = new arm(MAX_LIMB_HEALTH, "PlayerOneArmOne", *playOneArms);
+	arm* playOneArmTwo = new arm(MAX_LIMB_HEALTH, "PlayerOneArmTwo", *playOneArms);
+	leg* playOneLegOne = new leg(MAX_LIMB_HEALTH, "PlayerOneLegOne", *playOneLegs);
+	leg* playOneLegTwo = new leg(MAX_LIMB_HEALTH, "PlayerOneLegTwo", *playOneLegs);
 	chest* playOneChest = new chest(MAX_TORSO_HEALTH, "PlayerOneChest");
 	head* playOneHead = new head(MAX_HEAD_HEALTH, "PlayerOneHead");
 	ability* playTwoArms = new ability(true, true, OFF_DAMAGE, OFF_HEAL);
 	ability* playTwoLegs = new ability(true, false, OFF_DAMAGE, OFF_HEAL);
-	arm* playTwoArmOne = new arm(MAX_LIMB_HEALTH, "PlayerTwoArmOne", playTwoArms);
-	arm* playTwoArmTwo = new arm(MAX_LIMB_HEALTH, "PlayerTwoArmTwo", playTwoArms);
-	leg* playTwoLegOne = new leg(MAX_LIMB_HEALTH, "PlayerTwoLegOne", playTwoLegs);
-	leg* playTwoLegTwo = new leg(MAX_LIMB_HEALTH, "PlayerTwoLegTwo", playTwoLegs);
+	arm* playTwoArmOne = new arm(MAX_LIMB_HEALTH, "PlayerTwoArmOne", *playTwoArms);
+	arm* playTwoArmTwo = new arm(MAX_LIMB_HEALTH, "PlayerTwoArmTwo", *playTwoArms);
+	leg* playTwoLegOne = new leg(MAX_LIMB_HEALTH, "PlayerTwoLegOne", *playTwoLegs);
+	leg* playTwoLegTwo = new leg(MAX_LIMB_HEALTH, "PlayerTwoLegTwo", *playTwoLegs);
 	chest* playTwoChest = new chest(MAX_TORSO_HEALTH, "PlayerTwoChest");
 	head* playTwoHead = new head(MAX_HEAD_HEALTH, "PlayerTwoHead");
 	//output information on how to play game
-	std::cout << "Welcome to my final project game for CSI 240." << endl << "This is a turn based combat game where two players try to defeat each other." << endl;
-	std::cout << "Each player has three actions: Heal, Defend, and Attack." << endl <<"When attacking and healing you get to choose which body part you target." << endl;
-	std::cout << "A player loses when they lose one of the following: Their max health, their head, their torso, or all of their arms and legs." << endl;
-	std::cput << "Player one will have higher defense but lower offense while player two has higher offense but lower defense." << endl;
-	std::cout << "If you have any questions you can reload this dialogue through the menu later." << endl;
-	std::cout << "Please enter your name player one: " << endl;
+	std::cout << "Welcome to my final project game for CSI 240." << std::endl << "This is a turn based combat game where two players try to defeat each other." << std::endl;
+	std::cout << "Each player has three actions: Heal, Defend, and Attack." << std::endl <<"When attacking and healing you get to choose which body part you target." << std::endl;
+	std::cout << "A player loses when they lose one of the following: Their max health, their head, their torso, or all of their arms and legs." << std::endl;
+	std::cout << "Player one will have higher defense but lower offense while player two has higher offense but lower defense." << std::endl;
+	std::cout << "If you have any questions you can reload this dialogue through the menu later." << std::endl;
+	std::cout << "Please enter your name player one: " << std::endl;
 	std::getline (std::cin,playOneName);
-	std::cout << "Please enter your name player two: " << endl;
+	std::cout << "Please enter your name player two: " << std::endl;
 	std::getline (std::cin,playTwoName);
-	character* playerOne = new character(MAX_HEALTH, DEF_DAMAGE, DEF_DEFENSE, playOneArmOne, playOneArmTwo, playOneLegOne, playOneLegTwo, playOneChest, playOneHead, playOneName);
-	character* playerTwo = new character(MAX_HEALTH, OFF_DAMAGE, OFF_DEFENSE, playTwoArmOne, playTwoArmTwo, playTwoLegOne, playTwoLegTwo, playTwoChest, playTwoHead, playTwoName);
+	character* playerOne = new character(MAX_HEALTH, DEF_DAMAGE, DEF_DEFENSE, *playOneArmOne, *playOneArmTwo, *playOneLegOne, *playOneLegTwo, *playOneChest, *playOneHead, playOneName);
+	character* playerTwo = new character(MAX_HEALTH, OFF_DAMAGE, OFF_DEFENSE, *playTwoArmOne, *playTwoArmTwo, *playTwoLegOne, *playTwoLegTwo, *playTwoChest, *playTwoHead, playTwoName);
 	menu(playerOne, playerTwo);
 
 
