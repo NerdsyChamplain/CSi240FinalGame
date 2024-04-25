@@ -18,6 +18,14 @@ public:
 	ability(bool, bool, int, int);
 	//deconstructor
 	~ability();
+	//information displayer
+	std::string printAbility();
+	//functions to get booleans
+	bool getCanAttack();
+	bool getCanHeal();
+	//FRIENDSHIP : )
+	friend class part;
+	friend class character;
 };
 
 
@@ -48,6 +56,11 @@ public:
 	//functions to adjust and retrieve the living status of the part
 	void setAlive(bool);
 	bool getAlive();
+	//information functions, one will be virtual to be overriden
+	void printStatus();
+	virtual void printInfo();
+	friend class character;
+	friend class ability;
 };
 
 class arm : public part
@@ -55,26 +68,35 @@ class arm : public part
 protected:
 	ability capabilities;
 public:
-
-
+	arm() : part();
+	arm(int, std::string, ability) : part(int, std::string);
+	void printInfo();
 };
 
 class chest : public part
 {
-protected:
-	ability capabilities;
+public:
+	chest() : part();
+	chest(int, std::string) : part(int, std::string);
+	void printInfo();
 };
 
 class head : public part
 {
-protected:
-
+public:
+	head() : part();
+	head(int, std::string) : part(int, std::string);
+	void printInfo();
 };
 
 class leg : public part
 {
 protected:
 	ability capabilities;
+public:
+	leg() : part();
+	leg(int, std::string, ability) : part(int, std::string);
+	void printInfo();
 };
 
 class character
@@ -114,4 +136,12 @@ public:
 	//functions for the character's name
 	std::string getName();
 	void setName(std::string);
+	//function to print the full info and status of the player
+	void printFullInfo();
+	//function to find whether or not the player can attack and if so which part is the first that can
+	part getAttackAbility();
+	//same as above but with healing
+	part getHealAbility();
+	//part getter for damage purposes
+	part getPart(int);
 };

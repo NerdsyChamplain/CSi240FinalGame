@@ -22,6 +22,7 @@ ability::~ability(){}
 ability::attackPart(character charTarg, part target, int damage)
 {
     int damageDealt = damage + atMod - charTarg.getDefense();
+    //double check that the damage isn't negative
     if (damageDealt < 0)
     {
         damageDealt = 0;
@@ -40,14 +41,51 @@ ability::attackPart(character charTarg, part target, int damage)
     else if (charTarg.getAlive() != true)
     {
         std::cout << charTarg.getName() << "'s " << target.getName() << " was dealt " << damageDealt << " damage and " << charTarg.getName() << " was killed!" << endl;
+        std::cout << "You won! Congratulations" << endl;
+        exit(1);
     }
 }
 ability::healPart(character charTarg, part target, int healing)
 {
     int healingDone = healing + healMod;
-    target.addToHealth(healingDone);
-    charTarg.addToHealth(healingDone);
-    std::count << charTarg.getName() << "'s " << target.getName() << " was healed by " << healingDone << " hp."
+    if(target.isAlive == true)
+    {
+        target.addToHealth(healingDone);
+        charTarg.addToHealth(healingDone);
+        std::count << charTarg.getName() << "'s " << target.getName() << " was healed by " << healingDone << " hp." << endl;
+    }
+    else
+    {
+        std::cout << "Cannot heal a part that is no longer there" << endl;
+    }
+
+}
+ability::printAbility()
+{
+    if(canAttack == true && canHeal == true)
+    {
+        return "this part can both attack and heal.";
+    }
+    else if(canAttack == true && canHeal != true)
+    {
+        return "this part can only attack.";
+    }
+    else if(canAttack != true && canHeal == true)
+    {
+        return "this part can only heal.";
+    }
+    else
+    {
+        return "this part can neither heal nor attack.";
+    }
+}
+ability::getCanAttack()
+{
+    return canAttack;
+}
+ability::getCanHeal()
+{
+    return canHeal;
 }
 
 
@@ -120,6 +158,69 @@ part::getAlive()
 {
     return isAlive;
 }
+part::printStatus()
+{
+    if(isAlive != true)
+    {
+        std::cout << name << " is destroyed";
+    }
+    else
+    {
+        std::cout << name << " has " << curHealth << "/" << maxHealth << " left" << endl;
+    }
+}
+//implementation of classes derived from part, polymorphism is present
+	arm::arm() : part()
+    {
+        capabilities = new ability();
+    }
+	arm::arm(int health, std::string name, ability capabilities) : part(health, name)
+    {
+        this->capabilities = capabilities;
+    }
+	arm::printInfo()
+    {
+        std::cout << "This is an arm with " << this->curHealth << " hp, and " << capabilities.printAbility() << endl;
+    }
+
+	chest::chest() : part()
+    {
+        
+    }
+	chest(int health, std::string name) : part(health, name)
+    {
+        
+    }
+	chest::printInfo()
+    {
+        std::cout << "This is the torso with " << this->curHealth << " hp, and it can't do anything" << endl;
+    }
+
+	head::head() : part()
+    {
+
+    }
+	head::head(int, std::string) : part(int, std::string)
+    {
+
+    }
+	head::printInfo()
+    {
+        std::cout << "This is the head with " << this->curHealth << " hp, and it can't do anything" << endl;
+    }
+
+	leg::leg() : part()
+    {
+        capabilities = new ability();
+    }
+	leg::leg(int health, std::string name, ability capabilities) : part(health, name)
+    {
+        this->capabilities = capabilities;
+    }
+	leg::printInfo()
+    {
+        std::cout << "This is a leg with " << this->curHealth << " hp, and" << capabilities.printAbility() << endl;
+    }
 
 //character class implementation
 //default constructor
@@ -241,4 +342,102 @@ part::getAlive()
     character::setName(std::string name)
     {
         this->name = name;
+    }
+    character::printFullInfo()
+    {
+        std::cout << "Character: " << this->name << "'s current status is: " << endl;
+        if(isAlive != true)
+        {
+            std::cout << "Dead, game over" << endl;
+            exit(1);
+        }
+        else
+        {
+            cout << "Health: " << curHealth << "/" << maxHealth << endl << "Limb status: " << endl;
+            armOne.printStatus();
+            armTwo.printStatus();
+            legOne.printStatus();
+            legTwo.printStatus();
+            torso.printStatus();
+            head.printStatus();
+        }
+    }
+    character::getAttackAbility()
+    {
+        if(armOne.getAlive() == true && armOne.getCanAttack() == true)
+        {
+            return armOne;
+        }
+        else if(armTwo.getAlive() == true && armTwo.getCanAttack() == true)
+        {
+            return armTwo;
+        }
+        else if(legOne.getAlive() == true && legOne.getCanAttack() == true)
+        {
+            return legOne;
+        }
+        else if(legTwo.getAlive() == true && legTwo.getCanAttack() == true)
+        {
+            return legTwo;
+        }
+        else
+        {
+            return NULL;
+        }
+    }
+    character::getHealAbility()
+    {
+        if(armOne.getAlive() == true && armOne.getCanHeal() == true)
+        {
+            return armOne;
+        }
+        else if(armTwo.getAlive() == true && armTwo.getCanHeal() == true)
+        {
+            return armTwo;
+        }
+        else if(legOne.getAlive() == true && legOne.getCanHeal() == true)
+        {
+            return legOne;
+        }
+        else if(legTwo.getAlive() == true && legTwo.getCanHeal() == true)
+        {
+            return legTwo;
+        }
+        else
+        {
+            return NULL;
+        }
+    }
+    character:getPart(int index)
+    {
+        switch(index)
+        {
+            case(1):
+            return armOne;
+            break;
+
+            case(2):
+            return armTwo;
+            break;
+
+            case(3):
+            return legOne;
+            break;
+
+            case(4):
+            return legTwo;
+            break;
+
+            case(5):
+            return torso;
+            break;
+
+            case(6):
+            return head;
+            break;
+
+            default:
+            return NULL;
+            break;
+        }
     }
