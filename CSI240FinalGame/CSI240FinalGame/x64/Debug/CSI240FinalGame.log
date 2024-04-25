@@ -1,11 +1,6 @@
 ﻿  ability.cpp
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(46,10): error C2079: 'arm::capabilities' uses undefined class 'ability'
-  (compiling source file 'ability.cpp')
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(73,10): error C2079: 'leg::capabilities' uses undefined class 'ability'
-  (compiling source file 'ability.cpp')
-  
   character.cpp
   main.cpp
   Generating Code...
 C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(254,1): warning C4715: 'menu': not all control paths return a value
+  CSI240FinalGame.vcxproj -> C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\x64\Debug\CSI240FinalGame.exe

@@ -43,7 +43,7 @@ public:
 class arm : public part
 {
 protected:
-	ability capabilities;
+	ability* capabilities;
 public:
 	arm();
 	arm(int, std::string, ability);
@@ -70,7 +70,7 @@ public:
 class leg : public part
 {
 protected:
-	ability capabilities;
+	ability* capabilities;
 public:
 	leg();
 	leg(int, std::string, ability);

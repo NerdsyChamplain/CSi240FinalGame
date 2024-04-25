@@ -81,22 +81,30 @@ void part::printStatus()
         std::cout << name << " has " << curHealth << "/" << maxHealth << " left" << std::endl;
     }
 }
+void part::printInfo()
+{
+
+}
+ability part::getAbilities()
+{
+    return ability();
+}
 //implementation of classes derived from part, polymorphism is present
 	arm::arm() : part()
     {
-        capabilities = ability();
+        capabilities = new ability();
     }
 	arm::arm(int health, std::string name, ability capabilities) : part(health, name)
     {
-        this->capabilities = capabilities;
+        this->capabilities = &capabilities;
     }
 	void arm::printInfo()
     {
-        std::cout << "This is an arm with " << this->curHealth << " hp, and " << capabilities.printAbility() << std::endl;
+        std::cout << "This is an arm with " << this->curHealth << " hp, and " << capabilities->printAbility() << std::endl;
     }
     ability arm::getAbilities()
     {
-        return capabilities;
+        return *capabilities;
     }
 
 	chest::chest() : part()
@@ -127,19 +135,19 @@ void part::printStatus()
 
 	leg::leg() : part()
     {
-        capabilities = ability();
+        capabilities = new ability();
     }
 	leg::leg(int health, std::string name, ability capabilities) : part(health, name)
     {
-        this->capabilities = capabilities;
+        this->capabilities = &capabilities;
     }
 	void leg::printInfo()
     {
-        std::cout << "This is a leg with " << this->curHealth << " hp, and" << capabilities.printAbility() << std::endl;
+        std::cout << "This is a leg with " << this->curHealth << " hp, and" << capabilities->printAbility() << std::endl;
     }
     ability leg::getAbilities()
     {
-        return capabilities;
+        return *capabilities;
     }
 
 //character class implementation
