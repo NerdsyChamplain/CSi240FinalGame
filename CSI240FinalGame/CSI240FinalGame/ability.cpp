@@ -5,8 +5,8 @@
 //constructors
 ability::ability()
 {
-    canAttack = false;
-    canHeal = false;
+    canAttack = true;
+    canHeal = true;
     atMod = 0;
     healMod = 0;
 }

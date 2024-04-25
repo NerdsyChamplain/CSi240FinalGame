@@ -250,6 +250,14 @@ int menu(character* charOne, character* charTwo)
 			std::cout << "Invalid value entered, try again" << std::endl;
 			break;
 		}
+		if (charOne->getAlive() != true)
+		{
+			return 2;
+		}
+		else if (charTwo->getAlive() != true)
+		{
+			return 1;
+		}
 	}while(choice != 8);
 }
 
@@ -290,7 +298,23 @@ int main()
 	std::getline (std::cin,playTwoName);
 	character* playerOne = new character(MAX_HEALTH, DEF_DAMAGE, DEF_DEFENSE, *playOneArmOne, *playOneArmTwo, *playOneLegOne, *playOneLegTwo, *playOneChest, *playOneHead, playOneName);
 	character* playerTwo = new character(MAX_HEALTH, OFF_DAMAGE, OFF_DEFENSE, *playTwoArmOne, *playTwoArmTwo, *playTwoLegOne, *playTwoLegTwo, *playTwoChest, *playTwoHead, playTwoName);
-	menu(playerOne, playerTwo);
+	if (playerOne->getAttackAbility() != NULL)
+	{
+		std::cout << "player one correctly made" << std::endl;
+	}
+	else
+	{
+		std::cout << "something went wrong" << std::endl;
+	}
+	int victor = menu(playerOne, playerTwo);
+	if (victor == 1)
+	{
+		std::cout << "Congratulations " << playerOne->getName() << ", you are the winner!" << std::endl;
+	}
+	else if (victor == 2)
+	{
+		std::cout << "Congratulations " << playerTwo->getName() << ", you are the winner!" << std::endl;
+	}
 	delete playerOne;
 	playerOne = nullptr;
 	delete playerTwo;
