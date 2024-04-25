@@ -90,10 +90,6 @@ C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\a
   C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
   see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(85,7): error C2084: function 'arm::arm(void)' already has a body
-  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(48,2):
-  see previous definition of '{ctor}'
-  
 C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(86,5): error C2027: use of undefined type 'ability'
   C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
   see declaration of 'ability'
@@ -102,11 +98,11 @@ C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\c
   C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
   see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(89,7): error C2084: function 'arm::arm(int,std::string,ability)' already has a body
-  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(49,2):
-  see previous definition of '{ctor}'
-  
 C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(89,7): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
+  
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(89,49): error C2027: use of undefined type 'ability'
   C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
   see declaration of 'ability'
   
