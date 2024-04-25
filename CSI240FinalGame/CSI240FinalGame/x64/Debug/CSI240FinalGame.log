@@ -1,567 +1,404 @@
-﻿  character.cpp
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(13,18): error C2061: syntax error: identifier 'character'
-  (compiling source file 'character.cpp')
+﻿  ability.cpp
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(18,18): error C2061: syntax error: identifier 'character'
+  (compiling source file 'ability.cpp')
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(14,16): error C2061: syntax error: identifier 'character'
-  (compiling source file 'character.cpp')
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(19,16): error C2061: syntax error: identifier 'character'
+  (compiling source file 'ability.cpp')
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(71,16): error C2969: syntax error: ';': expected member function definition to end with '}'
-  (compiling source file 'character.cpp')
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(72,57): error C2969: syntax error: ';': expected member function definition to end with '}'
-  (compiling source file 'character.cpp')
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(72,2): error C2059: syntax error: 'inline function header'
-  (compiling source file 'character.cpp')
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(71,16): error C2630: ';' found in what should be a comma-separated list
-  (compiling source file 'character.cpp')
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(76,7): error C2059: syntax error: '<class-head>'
-  (compiling source file 'character.cpp')
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(72,57): error C2630: ';' found in what should be a comma-separated list
-  (compiling source file 'character.cpp')
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(78,1): error C2059: syntax error: 'public'
-  (compiling source file 'character.cpp')
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(80,8): error C2144: syntax error: 'int' should be preceded by ')'
-  (compiling source file 'character.cpp')
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(80,2): error C3861: 'chest': identifier not found
-  (compiling source file 'character.cpp')
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(80,8): error C2144: syntax error: 'int' should be preceded by ';'
-  (compiling source file 'character.cpp')
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(80,11): error C2059: syntax error: ','
-  (compiling source file 'character.cpp')
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(80,24): error C2059: syntax error: ')'
-  (compiling source file 'character.cpp')
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(87,17): error C2969: syntax error: ';': expected member function definition to end with '}'
-  (compiling source file 'character.cpp')
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(88,49): error C2969: syntax error: ';': expected member function definition to end with '}'
-  (compiling source file 'character.cpp')
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(88,2): error C2059: syntax error: 'inline function header'
-  (compiling source file 'character.cpp')
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(87,17): error C2630: ';' found in what should be a comma-separated list
-  (compiling source file 'character.cpp')
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(92,7): error C2059: syntax error: '<class-head>'
-  (compiling source file 'character.cpp')
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(88,49): error C2630: ';' found in what should be a comma-separated list
-  (compiling source file 'character.cpp')
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(94,1): error C2059: syntax error: 'protected'
-  (compiling source file 'character.cpp')
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(96,1): error C2059: syntax error: 'public'
-  (compiling source file 'character.cpp')
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(98,6): error C2144: syntax error: 'int' should be preceded by ')'
-  (compiling source file 'character.cpp')
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(98,2): error C3861: 'leg': identifier not found
-  (compiling source file 'character.cpp')
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(98,6): error C2144: syntax error: 'int' should be preceded by ';'
-  (compiling source file 'character.cpp')
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(98,9): error C2059: syntax error: ','
-  (compiling source file 'character.cpp')
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(98,31): error C2059: syntax error: ')'
-  (compiling source file 'character.cpp')
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(23,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(22,10): error C2511: 'int ability::attackPart(character,part,int)': overloaded member function not found in 'ability'
-  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(4,7):
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(4,1): error C2011: 'ability': 'class' type redefinition
+  (compiling source file 'ability.cpp')
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
   see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(24,32): error C2597: illegal reference to non-static member 'ability::atMod'
-  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(24,32):
-  see declaration of 'ability::atMod'
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(24,32): error C3867: 'ability::atMod': non-standard syntax; use '&' to create a pointer to member
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(24,32): error C2568: '+': unable to resolve function overload
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(35,14): error C2039: 'cout': is not a member of 'std'
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string(23,1):
-  see declaration of 'std'
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(35,14): error C2065: 'cout': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(35,119): error C2065: 'endl': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(39,14): error C2039: 'cout': is not a member of 'std'
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string(23,1):
-  see declaration of 'std'
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(39,14): error C2065: 'cout': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(39,164): error C2065: 'endl': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(43,14): error C2039: 'cout': is not a member of 'std'
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string(23,1):
-  see declaration of 'std'
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(43,14): error C2065: 'cout': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(43,163): error C2065: 'endl': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(44,14): error C2039: 'cout': is not a member of 'std'
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string(23,1):
-  see declaration of 'std'
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(44,14): error C2065: 'cout': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(44,52): error C2065: 'endl': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(49,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(48,10): error C2511: 'int ability::healPart(character,part,int)': overloaded member function not found in 'ability'
-  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(4,7):
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.cpp(6,10): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
   see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(50,33): error C2597: illegal reference to non-static member 'ability::healMod'
-  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(50,33):
-  see declaration of 'ability::healMod'
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.cpp(7,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.cpp(8,5): error C2065: 'canAttack': undeclared identifier
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.cpp(9,5): error C2065: 'canHeal': undeclared identifier
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.cpp(10,5): error C2065: 'atMod': undeclared identifier
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.cpp(11,5): error C2065: 'healMod': undeclared identifier
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.cpp(12,1): warning C4508: '{ctor}': function should return a value; 'void' return type assumed
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.cpp(13,10): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(50,33): error C3867: 'ability::healMod': non-standard syntax; use '&' to create a pointer to member
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(50,33): error C2568: '+': unable to resolve function overload
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(55,14): error C2678: binary '<<': no operator found which takes a left-hand operand of type 'overloaded-function' (or there is no acceptable conversion)
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(5228,32):
-  could be 'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>,std::allocator<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)'
-  	C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(55,14):
-  	'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>,std::allocator<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)': cannot convert argument 1 from 'iterator_traits<_Iter>::difference_type (__cdecl *)(const _InIt,const _InIt,const _Ty &)' to 'std::basic_ostream<char,std::char_traits<char>> &'
-  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(55,14):
-  while trying to match the argument list '(overloaded-function, std::string)'
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.cpp(14,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.cpp(15,5): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.cpp(16,5): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.cpp(17,5): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.cpp(18,5): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.cpp(19,1): warning C4508: '{ctor}': function should return a value; 'void' return type assumed
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.cpp(21,11): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(55,120): error C2065: 'endl': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(59,14): error C2039: 'cout': is not a member of 'std'
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string(23,1):
-  see declaration of 'std'
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.cpp(21,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.cpp(21,21): warning C4508: '{dtor}': function should return a value; 'void' return type assumed
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.cpp(23,15): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(59,14): error C2065: 'cout': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(59,70): error C2065: 'endl': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(64,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(64,1): error C2556: 'int ability::printAbility(void)': overloaded function differs only by return type from 'std::string ability::printAbility(void)'
-  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(22,14):
-  see declaration of 'ability::printAbility'
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.cpp(25,32): error C2065: 'atMod': undeclared identifier
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.cpp(49,15): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(63,10): error C2371: 'ability::printAbility': redefinition; different basic types
-  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(22,14):
-  see declaration of 'ability::printAbility'
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.cpp(51,33): error C2065: 'healMod': undeclared identifier
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.cpp(52,14): error C2248: 'part::isAlive': cannot access protected member declared in class 'part'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(14,7):
+  see declaration of 'part::isAlive'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(8,7):
+  see declaration of 'part'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(83,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(83,1): error C2556: 'int ability::getCanAttack(void)': overloaded function differs only by return type from 'bool ability::getCanAttack(void)'
-  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(24,7):
-  see declaration of 'ability::getCanAttack'
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.cpp(64,22): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(82,10): error C2371: 'ability::getCanAttack': redefinition; different basic types
-  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(24,7):
-  see declaration of 'ability::getCanAttack'
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.cpp(66,8): error C2065: 'canAttack': undeclared identifier
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.cpp(66,21): warning C4805: '==': unsafe mix of type 'unknown-type' and type 'bool' in operation
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.cpp(66,29): error C2065: 'canHeal': undeclared identifier
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.cpp(66,40): warning C4805: '==': unsafe mix of type 'unknown-type' and type 'bool' in operation
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.cpp(70,13): error C2065: 'canAttack': undeclared identifier
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.cpp(70,26): warning C4805: '==': unsafe mix of type 'unknown-type' and type 'bool' in operation
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.cpp(70,34): error C2065: 'canHeal': undeclared identifier
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.cpp(70,45): warning C4805: '!=': unsafe mix of type 'unknown-type' and type 'bool' in operation
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.cpp(74,13): error C2065: 'canAttack': undeclared identifier
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.cpp(74,26): warning C4805: '!=': unsafe mix of type 'unknown-type' and type 'bool' in operation
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.cpp(74,34): error C2065: 'canHeal': undeclared identifier
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.cpp(74,45): warning C4805: '==': unsafe mix of type 'unknown-type' and type 'bool' in operation
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.cpp(83,15): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(87,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(87,1): error C2556: 'int ability::getCanHeal(void)': overloaded function differs only by return type from 'bool ability::getCanHeal(void)'
-  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(25,7):
-  see declaration of 'ability::getCanHeal'
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.cpp(85,12): error C2065: 'canAttack': undeclared identifier
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.cpp(87,15): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(86,10): error C2371: 'ability::getCanHeal': redefinition; different basic types
-  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(25,7):
-  see declaration of 'ability::getCanHeal'
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.cpp(89,12): error C2065: 'canHeal': undeclared identifier
+  character.cpp
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(18,18): error C2061: syntax error: identifier 'character'
+  (compiling source file 'character.cpp')
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(113,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(113,1): error C2556: 'int part::setCurHealth(int)': overloaded function differs only by return type from 'void part::setCurHealth(int)'
-  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(49,7):
-  see declaration of 'part::setCurHealth'
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(19,16): error C2061: syntax error: identifier 'character'
+  (compiling source file 'character.cpp')
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(112,7): error C2371: 'part::setCurHealth': redefinition; different basic types
-  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(49,7):
-  see declaration of 'part::setCurHealth'
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(4,1): error C2011: 'ability': 'class' type redefinition
+  (compiling source file 'character.cpp')
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(122,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(126,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(131,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(131,1): error C2556: 'int part::subFromHealth(int)': overloaded function differs only by return type from 'void part::subFromHealth(int)'
-  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(50,7):
-  see declaration of 'part::subFromHealth'
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(130,7): error C2371: 'part::subFromHealth': redefinition; different basic types
-  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(50,7):
-  see declaration of 'part::subFromHealth'
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(140,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(140,1): error C2556: 'int part::addToHealth(int)': overloaded function differs only by return type from 'void part::addToHealth(int)'
-  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(51,7):
-  see declaration of 'part::addToHealth'
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(139,7): error C2371: 'part::addToHealth': redefinition; different basic types
-  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(51,7):
-  see declaration of 'part::addToHealth'
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(149,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(149,1): error C2556: 'int part::getName(void)': overloaded function differs only by return type from 'std::string part::getName(void)'
-  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(55,14):
-  see declaration of 'part::getName'
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(148,7): error C2371: 'part::getName': redefinition; different basic types
-  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(55,14):
-  see declaration of 'part::getName'
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(154,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(154,1): error C2556: 'int part::setAlive(bool)': overloaded function differs only by return type from 'void part::setAlive(bool)'
-  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(57,7):
-  see declaration of 'part::setAlive'
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(153,7): error C2371: 'part::setAlive': redefinition; different basic types
-  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(57,7):
-  see declaration of 'part::setAlive'
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(158,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(158,1): error C2556: 'int part::getAlive(void)': overloaded function differs only by return type from 'bool part::getAlive(void)'
-  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(58,7):
-  see declaration of 'part::getAlive'
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(157,7): error C2371: 'part::getAlive': redefinition; different basic types
-  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(58,7):
-  see declaration of 'part::getAlive'
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(162,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(162,1): error C2556: 'int part::printStatus(void)': overloaded function differs only by return type from 'void part::printStatus(void)'
-  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(60,7):
-  see declaration of 'part::printStatus'
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(161,7): error C2371: 'part::printStatus': redefinition; different basic types
-  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(60,7):
-  see declaration of 'part::printStatus'
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(165,14): error C2039: 'cout': is not a member of 'std'
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string(23,1):
-  see declaration of 'std'
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(165,14): error C2065: 'cout': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(169,14): error C2039: 'cout': is not a member of 'std'
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string(23,1):
-  see declaration of 'std'
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(169,14): error C2065: 'cout': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(169,85): error C2065: 'endl': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(173,7): error C2084: function 'arm::arm(void)' already has a body
-  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(71,2):
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(85,7): error C2084: function 'arm::arm(void)' already has a body
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(48,2):
   see previous definition of '{ctor}'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(175,9): error C2679: binary '=': no operator found which takes a right-hand operand of type 'ability *' (or there is no acceptable conversion)
-  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(29,1):
-  could be 'ability &ability::operator =(const ability &)'
-  	C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(175,9):
-  	'ability &ability::operator =(const ability &)': cannot convert argument 2 from 'ability *' to 'const ability &'
-  		C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(175,35):
-  		Reason: cannot convert from 'ability *' to 'const ability'
-  		C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(175,35):
-  		'ability::ability': no overloaded function could convert all the argument types
-  			C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(29,1):
-  			could be 'ability::ability(const ability &)'
-  				C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(175,35):
-  				'ability::ability(const ability &)': cannot convert argument 1 from 'ability *' to 'const ability &'
-  					C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(175,35):
-  					Reason: cannot convert from 'ability *' to 'const ability'
-  					C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(175,35):
-  					Conversion requires a second user-defined-conversion operator or constructor
-  			C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(175,35):
-  			while trying to match the argument list '(ability *)'
-  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(175,9):
-  while trying to match the argument list '(ability, ability *)'
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(86,5): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(182,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(182,5): error C2556: 'int arm::printInfo(void)': overloaded function differs only by return type from 'void arm::printInfo(void)'
-  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(73,7):
-  see declaration of 'arm::printInfo'
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(87,31): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(181,7): error C2371: 'arm::printInfo': redefinition; different basic types
-  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(73,7):
-  see declaration of 'arm::printInfo'
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(183,14): error C2039: 'cout': is not a member of 'std'
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string(23,1):
-  see declaration of 'std'
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(183,14): error C2065: 'cout': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(183,113): error C2065: 'endl': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(186,2): error C2653: 'chest': is not a class or namespace name
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(186,17): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(187,5): error C2550: 'chest': constructor initializer lists are only allowed on constructor definitions
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(189,5): warning C4508: 'chest': function should return a value; 'void' return type assumed
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(190,38): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(191,5): error C2550: 'chest': constructor initializer lists are only allowed on constructor definitions
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(193,5): warning C4508: 'chest': function should return a value; 'void' return type assumed
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(194,2): error C2653: 'chest': is not a class or namespace name
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(195,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(196,14): error C2039: 'cout': is not a member of 'std'
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string(23,1):
-  see declaration of 'std'
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(196,14): error C2065: 'cout': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(196,51): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(196,105): error C2065: 'endl': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(197,5): warning C4508: 'printInfo': function should return a value; 'void' return type assumed
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(199,8): error C2084: function 'head::head(void)' already has a body
-  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(87,2):
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(89,7): error C2084: function 'arm::arm(int,std::string,ability)' already has a body
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(49,2):
   see previous definition of '{ctor}'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(203,38): error C2062: type 'int' unexpected
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(208,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(208,5): error C2556: 'int head::printInfo(void)': overloaded function differs only by return type from 'void head::printInfo(void)'
-  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(89,7):
-  see declaration of 'head::printInfo'
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(89,7): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(207,8): error C2371: 'head::printInfo': redefinition; different basic types
-  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(89,7):
-  see declaration of 'head::printInfo'
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(90,5): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(209,14): error C2039: 'cout': is not a member of 'std'
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string(23,1):
-  see declaration of 'std'
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(95,82): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(209,14): error C2065: 'cout': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(209,104): error C2065: 'endl': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(212,2): error C2653: 'leg': is not a class or namespace name
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(212,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(213,5): error C2550: 'leg': constructor initializer lists are only allowed on constructor definitions
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(213,5): error C1003: error count exceeds 100; stopping compilation
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(97,18): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
+  
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(102,9): error C2084: function 'chest::chest(void)' already has a body
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(57,2):
+  see previous definition of '{ctor}'
+  
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(106,9): error C2084: function 'chest::chest(int,std::string)' already has a body
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(58,2):
+  see previous definition of '{ctor}'
+  
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(115,8): error C2084: function 'head::head(void)' already has a body
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(65,2):
+  see previous definition of '{ctor}'
+  
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(119,8): error C2084: function 'head::head(int,std::string)' already has a body
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(66,2):
+  see previous definition of '{ctor}'
+  
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(128,7): error C2084: function 'leg::leg(void)' already has a body
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(75,2):
+  see previous definition of '{ctor}'
+  
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(129,5): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
+  
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(130,31): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
+  
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(132,7): error C2084: function 'leg::leg(int,std::string,ability)' already has a body
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(76,2):
+  see previous definition of '{ctor}'
+  
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(132,7): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
+  
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(133,5): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
+  
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(138,80): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
+  
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(140,18): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
+  
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(287,47): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
+  
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(287,60): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
+  
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(291,52): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
+  
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(291,65): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
+  
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(295,52): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
+  
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(295,65): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
+  
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(299,52): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
+  
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(299,65): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
+  
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(310,47): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
+  
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(310,60): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
+  
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(314,52): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
+  
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(314,65): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
+  
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(318,52): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
+  
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(318,65): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
+  
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(322,52): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
+  
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.cpp(322,65): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
+  
   main.cpp
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(13,18): error C2061: syntax error: identifier 'character'
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(18,18): error C2061: syntax error: identifier 'character'
   (compiling source file 'main.cpp')
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(14,16): error C2061: syntax error: identifier 'character'
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(19,16): error C2061: syntax error: identifier 'character'
   (compiling source file 'main.cpp')
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(71,16): error C2969: syntax error: ';': expected member function definition to end with '}'
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(4,1): error C2011: 'ability': 'class' type redefinition
   (compiling source file 'main.cpp')
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(72,57): error C2969: syntax error: ';': expected member function definition to end with '}'
-  (compiling source file 'main.cpp')
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(40,33): error C2102: '&' requires l-value
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(49,35): error C2102: '&' requires l-value
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(51,34): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(72,2): error C2059: syntax error: 'inline function header'
-  (compiling source file 'main.cpp')
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(51,47): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(71,16): error C2630: ';' found in what should be a comma-separated list
-  (compiling source file 'main.cpp')
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(56,35): error C2102: '&' requires l-value
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(58,34): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(76,7): error C2059: syntax error: '<class-head>'
-  (compiling source file 'main.cpp')
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(58,47): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(72,57): error C2630: ';' found in what should be a comma-separated list
-  (compiling source file 'main.cpp')
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(63,35): error C2102: '&' requires l-value
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(65,34): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(78,1): error C2059: syntax error: 'public'
-  (compiling source file 'main.cpp')
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(65,47): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(80,8): error C2144: syntax error: 'int' should be preceded by ')'
-  (compiling source file 'main.cpp')
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(70,35): error C2102: '&' requires l-value
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(72,34): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(80,2): error C3861: 'chest': identifier not found
-  (compiling source file 'main.cpp')
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(72,47): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(80,8): error C2144: syntax error: 'int' should be preceded by ';'
-  (compiling source file 'main.cpp')
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(77,35): error C2102: '&' requires l-value
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(79,34): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(80,11): error C2059: syntax error: ','
-  (compiling source file 'main.cpp')
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(79,47): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(80,24): error C2059: syntax error: ')'
-  (compiling source file 'main.cpp')
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(84,35): error C2102: '&' requires l-value
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(86,34): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(87,17): error C2969: syntax error: ';': expected member function definition to end with '}'
-  (compiling source file 'main.cpp')
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(86,47): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(88,49): error C2969: syntax error: ';': expected member function definition to end with '}'
-  (compiling source file 'main.cpp')
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(102,31): error C2102: '&' requires l-value
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(111,30): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(88,2): error C2059: syntax error: 'inline function header'
-  (compiling source file 'main.cpp')
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(111,43): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(87,17): error C2630: ';' found in what should be a comma-separated list
-  (compiling source file 'main.cpp')
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(115,30): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(92,7): error C2059: syntax error: '<class-head>'
-  (compiling source file 'main.cpp')
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(115,43): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(88,49): error C2630: ';' found in what should be a comma-separated list
-  (compiling source file 'main.cpp')
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(119,30): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(94,1): error C2059: syntax error: 'protected'
-  (compiling source file 'main.cpp')
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(119,43): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(96,1): error C2059: syntax error: 'public'
-  (compiling source file 'main.cpp')
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(123,30): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(98,6): error C2144: syntax error: 'int' should be preceded by ')'
-  (compiling source file 'main.cpp')
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(123,43): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(98,2): error C3861: 'leg': identifier not found
-  (compiling source file 'main.cpp')
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(127,30): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(98,6): error C2144: syntax error: 'int' should be preceded by ';'
-  (compiling source file 'main.cpp')
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(127,43): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(98,9): error C2059: syntax error: ','
-  (compiling source file 'main.cpp')
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(131,30): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(98,31): error C2059: syntax error: ')'
-  (compiling source file 'main.cpp')
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(131,43): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(13,8): error C2039: 'cout': is not a member of 'std'
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string(23,1):
-  see declaration of 'std'
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(154,34): error C2102: '&' requires l-value
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(156,34): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(13,8): error C2065: 'cout': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(13,55): error C2065: 'endl': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(14,8): error C2039: 'cout': is not a member of 'std'
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string(23,1):
-  see declaration of 'std'
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(156,47): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(14,8): error C2065: 'cout': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(14,69): error C2065: 'endl': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(15,8): error C2039: 'cout': is not a member of 'std'
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string(23,1):
-  see declaration of 'std'
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(161,34): error C2102: '&' requires l-value
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(163,34): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(15,8): error C2065: 'cout': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(15,69): error C2065: 'endl': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(16,8): error C2039: 'cout': is not a member of 'std'
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string(23,1):
-  see declaration of 'std'
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(163,47): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(16,8): error C2065: 'cout': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(16,42): error C2065: 'endl': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(17,8): error C2039: 'cout': is not a member of 'std'
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string(23,1):
-  see declaration of 'std'
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(168,34): error C2102: '&' requires l-value
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(170,34): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(17,8): error C2065: 'cout': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(17,40): error C2065: 'endl': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(18,8): error C2039: 'cout': is not a member of 'std'
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string(23,1):
-  see declaration of 'std'
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(170,47): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(18,8): error C2065: 'cout': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(18,42): error C2065: 'endl': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(19,8): error C2039: 'cout': is not a member of 'std'
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string(23,1):
-  see declaration of 'std'
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(175,34): error C2102: '&' requires l-value
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(177,34): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(19,8): error C2065: 'cout': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(19,40): error C2065: 'endl': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(20,8): error C2039: 'cout': is not a member of 'std'
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string(23,1):
-  see declaration of 'std'
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(177,47): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(20,8): error C2065: 'cout': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(20,38): error C2065: 'endl': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(21,8): error C2039: 'cin': is not a member of 'std'
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string(23,1):
-  see declaration of 'std'
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(182,34): error C2102: '&' requires l-value
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(184,34): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(21,8): error C2065: 'cin': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(25,9): error C2039: 'cout': is not a member of 'std'
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string(23,1):
-  see declaration of 'std'
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(184,47): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(25,9): error C2065: 'cout': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(25,68): error C2065: 'endl': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(25,158): error C2065: 'endl': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(26,9): error C2039: 'cout': is not a member of 'std'
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string(23,1):
-  see declaration of 'std'
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(189,34): error C2102: '&' requires l-value
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(191,34): error C2027: use of undefined type 'ability'
+  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\ability.h(3,7):
+  see declaration of 'ability'
   
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(26,9): error C2065: 'cout': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(26,79): error C2065: 'endl': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(26,164): error C2065: 'endl': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(27,9): error C2039: 'cout': is not a member of 'std'
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string(23,1):
-  see declaration of 'std'
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(27,9): error C2065: 'cout': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(27,148): error C2065: 'endl': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(28,9): error C2039: 'cput': is not a member of 'std'
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string(23,1):
-  see declaration of 'std'
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(28,9): error C2065: 'cput': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(28,131): error C2065: 'endl': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(40,34): error C2676: binary '!=': 'part' does not define this operator or a conversion to a type acceptable to the predefined operator
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(42,11): error C2039: 'cout': is not a member of 'std'
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string(23,1):
-  see declaration of 'std'
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(42,11): error C2065: 'cout': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(42,44): error C2065: 'endl': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(44,9): error C2039: 'cout': is not a member of 'std'
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string(23,1):
-  see declaration of 'std'
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(44,9): error C2065: 'cout': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(45,9): error C2039: 'cin': is not a member of 'std'
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string(23,1):
-  see declaration of 'std'
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(45,9): error C2065: 'cin': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(49,36): error C2676: binary '!=': 'part' does not define this operator or a conversion to a type acceptable to the predefined operator
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(51,34): error C2039: 'attackPart': is not a member of 'part'
-  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(32,7):
-  see declaration of 'part'
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(56,36): error C2676: binary '!=': 'part' does not define this operator or a conversion to a type acceptable to the predefined operator
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(58,34): error C2039: 'attackPart': is not a member of 'part'
-  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(32,7):
-  see declaration of 'part'
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(63,36): error C2676: binary '!=': 'part' does not define this operator or a conversion to a type acceptable to the predefined operator
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(65,34): error C2039: 'attackPart': is not a member of 'part'
-  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(32,7):
-  see declaration of 'part'
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(70,36): error C2676: binary '!=': 'part' does not define this operator or a conversion to a type acceptable to the predefined operator
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(72,34): error C2039: 'attackPart': is not a member of 'part'
-  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(32,7):
-  see declaration of 'part'
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(77,36): error C2676: binary '!=': 'part' does not define this operator or a conversion to a type acceptable to the predefined operator
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(79,34): error C2039: 'attackPart': is not a member of 'part'
-  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(32,7):
-  see declaration of 'part'
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(84,36): error C2676: binary '!=': 'part' does not define this operator or a conversion to a type acceptable to the predefined operator
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(86,34): error C2039: 'attackPart': is not a member of 'part'
-  C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\character.h(32,7):
-  see declaration of 'part'
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(91,11): error C2039: 'cout': is not a member of 'std'
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string(23,1):
-  see declaration of 'std'
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(91,11): error C2065: 'cout': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(91,43): error C2065: 'endl': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(97,10): error C2039: 'cout': is not a member of 'std'
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string(23,1):
-  see declaration of 'std'
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(97,10): error C2065: 'cout': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(97,56): error C2065: 'endl': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(102,15): error C3867: 'character::getHealAbility': non-standard syntax; use '&' to create a pointer to member
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(104,10): error C2039: 'cout': is not a member of 'std'
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string(23,1):
-  see declaration of 'std'
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(104,10): error C2065: 'cout': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(104,108): error C2065: 'endl': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(106,9): error C2039: 'cout': is not a member of 'std'
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string(23,1):
-  see declaration of 'std'
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(106,9): error C2065: 'cout': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(107,9): error C2039: 'cin': is not a member of 'std'
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string(23,1):
-  see declaration of 'std'
-  
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(107,9): error C2065: 'cin': undeclared identifier
-C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(107,9): error C1003: error count exceeds 100; stopping compilation
+C:\Users\Josh\Documents\GitHub\CSi240FinalGame\CSI240FinalGame\CSI240FinalGame\main.cpp(191,34): error C1003: error count exceeds 100; stopping compilation
   Generating Code...

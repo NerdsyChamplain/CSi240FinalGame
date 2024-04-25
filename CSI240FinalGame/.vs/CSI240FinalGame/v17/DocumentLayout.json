@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Josh\\Documents\\GitHub\\CSi240FinalGame\\CSI240FinalGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B1379D1A-AB03-42A6-B6D7-4027BCFC1493}|CSI240FinalGame\\CSI240FinalGame.vcxproj|C:\\Users\\Josh\\Documents\\GitHub\\CSi240FinalGame\\CSI240FinalGame\\CSI240FinalGame\\character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B1379D1A-AB03-42A6-B6D7-4027BCFC1493}|CSI240FinalGame\\CSI240FinalGame.vcxproj|solutionrelative:CSI240FinalGame\\character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B1379D1A-AB03-42A6-B6D7-4027BCFC1493}|CSI240FinalGame\\CSI240FinalGame.vcxproj|C:\\Users\\Josh\\Documents\\GitHub\\CSi240FinalGame\\CSI240FinalGame\\CSI240FinalGame\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B1379D1A-AB03-42A6-B6D7-4027BCFC1493}|CSI240FinalGame\\CSI240FinalGame.vcxproj|solutionrelative:CSI240FinalGame\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1379D1A-AB03-42A6-B6D7-4027BCFC1493}|CSI240FinalGame\\CSI240FinalGame.vcxproj|C:\\Users\\Josh\\Documents\\GitHub\\CSi240FinalGame\\CSI240FinalGame\\CSI240FinalGame\\ability.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B1379D1A-AB03-42A6-B6D7-4027BCFC1493}|CSI240FinalGame\\CSI240FinalGame.vcxproj|solutionrelative:CSI240FinalGame\\ability.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1379D1A-AB03-42A6-B6D7-4027BCFC1493}|CSI240FinalGame\\CSI240FinalGame.vcxproj|C:\\Users\\Josh\\Documents\\GitHub\\CSi240FinalGame\\CSI240FinalGame\\CSI240FinalGame\\ability.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B1379D1A-AB03-42A6-B6D7-4027BCFC1493}|CSI240FinalGame\\CSI240FinalGame.vcxproj|solutionrelative:CSI240FinalGame\\ability.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B1379D1A-AB03-42A6-B6D7-4027BCFC1493}|CSI240FinalGame\\CSI240FinalGame.vcxproj|C:\\Users\\Josh\\Documents\\GitHub\\CSi240FinalGame\\CSI240FinalGame\\CSI240FinalGame\\character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B1379D1A-AB03-42A6-B6D7-4027BCFC1493}|CSI240FinalGame\\CSI240FinalGame.vcxproj|solutionrelative:CSI240FinalGame\\character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1379D1A-AB03-42A6-B6D7-4027BCFC1493}|CSI240FinalGame\\CSI240FinalGame.vcxproj|C:\\Users\\Josh\\Documents\\GitHub\\CSi240FinalGame\\CSI240FinalGame\\CSI240FinalGame\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B1379D1A-AB03-42A6-B6D7-4027BCFC1493}|CSI240FinalGame\\CSI240FinalGame.vcxproj|solutionrelative:CSI240FinalGame\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B1379D1A-AB03-42A6-B6D7-4027BCFC1493}|CSI240FinalGame\\CSI240FinalGame.vcxproj|C:\\Users\\Josh\\Documents\\GitHub\\CSi240FinalGame\\CSI240FinalGame\\CSI240FinalGame\\character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B1379D1A-AB03-42A6-B6D7-4027BCFC1493}|CSI240FinalGame\\CSI240FinalGame.vcxproj|solutionrelative:CSI240FinalGame\\character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +30,70 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\Josh\\Documents\\GitHub\\CSi240FinalGame\\CSI240FinalGame\\CSI240FinalGame\\main.cpp",
               "RelativeDocumentMoniker": "CSI240FinalGame\\main.cpp",
               "ToolTip": "C:\\Users\\Josh\\Documents\\GitHub\\CSi240FinalGame\\CSI240FinalGame\\CSI240FinalGame\\main.cpp",
               "RelativeToolTip": "CSI240FinalGame\\main.cpp",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAACsAAABbAAAA",
+              "ViewState": "AQIAAB8BAAAAAAAAAADwvzgBAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-25T01:46:45.235Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ability.h",
+              "DocumentMoniker": "C:\\Users\\Josh\\Documents\\GitHub\\CSi240FinalGame\\CSI240FinalGame\\CSI240FinalGame\\ability.h",
+              "RelativeDocumentMoniker": "CSI240FinalGame\\ability.h",
+              "ToolTip": "C:\\Users\\Josh\\Documents\\GitHub\\CSi240FinalGame\\CSI240FinalGame\\CSI240FinalGame\\ability.h",
+              "RelativeToolTip": "CSI240FinalGame\\ability.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-25T02:36:11.03Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ability.cpp",
+              "DocumentMoniker": "C:\\Users\\Josh\\Documents\\GitHub\\CSi240FinalGame\\CSI240FinalGame\\CSI240FinalGame\\ability.cpp",
+              "RelativeDocumentMoniker": "CSI240FinalGame\\ability.cpp",
+              "ToolTip": "C:\\Users\\Josh\\Documents\\GitHub\\CSi240FinalGame\\CSI240FinalGame\\CSI240FinalGame\\ability.cpp",
+              "RelativeToolTip": "CSI240FinalGame\\ability.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-25T02:36:10.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "character.cpp",
               "DocumentMoniker": "C:\\Users\\Josh\\Documents\\GitHub\\CSi240FinalGame\\CSI240FinalGame\\CSI240FinalGame\\character.cpp",
               "RelativeDocumentMoniker": "CSI240FinalGame\\character.cpp",
               "ToolTip": "C:\\Users\\Josh\\Documents\\GitHub\\CSi240FinalGame\\CSI240FinalGame\\CSI240FinalGame\\character.cpp",
               "RelativeToolTip": "CSI240FinalGame\\character.cpp",
-              "ViewState": "AQIAAFYBAAAAAAAAAAAAAKABAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-25T01:46:45.247Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "character.h",
               "DocumentMoniker": "C:\\Users\\Josh\\Documents\\GitHub\\CSi240FinalGame\\CSI240FinalGame\\CSI240FinalGame\\character.h",
               "RelativeDocumentMoniker": "CSI240FinalGame\\character.h",
               "ToolTip": "C:\\Users\\Josh\\Documents\\GitHub\\CSi240FinalGame\\CSI240FinalGame\\CSI240FinalGame\\character.h",
               "RelativeToolTip": "CSI240FinalGame\\character.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAlAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-04-25T01:46:45.269Z",
               "EditorCaption": ""

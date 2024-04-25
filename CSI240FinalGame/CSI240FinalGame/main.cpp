@@ -1,8 +1,8 @@
 #include "character.h"
-
+#include "ability.h"
 //
 static bool playTurn = true;
-int menu(character charOne, character charTwo)
+int menu(character* charOne, character* charTwo)
 {
 	//base values for the damage and heal functions to use
 	const int BASE_DAMAGE = 10, BASE_HEALING = 10;
@@ -29,61 +29,61 @@ int menu(character charOne, character charTwo)
 			break;
 
 			case(2):
-			charOne.printFullInfo();
+			charOne->printFullInfo();
 			break;
 
 			case(3):
-			charTwo.printFullInfo();
+			charTwo->printFullInfo();
 			break;
 
 			case(4):
-			if(charOne.getAttackAbility() != NULL)
+			if(&charOne->getAttackAbility() != NULL)
 			{
 					std::cout << "Potential targets: " << std::endl;
-			charTwo.printFullInfo();
+			charTwo->printFullInfo();
 			std::cout << "1: ArmOne \n 2: ArmTwo \n 3: LegOne \n 4: LegTwo \n 5: Chest \n 6: Head \n";
 			std::cin >> targetChoice;
 				switch(targetChoice)
 				{
 					case(1):
-					if(charOne.getAttackAbility() != NULL)
+					if(&charOne->getAttackAbility() != NULL)
 					{
-						charOne.getAttackAbility().attackPart(charTwo, charTwo.getPart(1), BASE_DAMAGE);
+						charOne->getAttackAbility().getAbilities().attackPart(*charTwo, charTwo->getPart(1), BASE_DAMAGE);
 					}
 					break;
 
 					case(2):
-					if(charOne.getAttackAbility() != NULL)
+					if(&charOne->getAttackAbility() != NULL)
 					{
-						charOne.getAttackAbility().attackPart(charTwo, charTwo.getPart(2), BASE_DAMAGE);
+						charOne->getAttackAbility().getAbilities().attackPart(*charTwo, charTwo->getPart(2), BASE_DAMAGE);
 					}
 					break;
 
 					case(3):
-					if(charOne.getAttackAbility() != NULL)
+					if(&charOne->getAttackAbility() != NULL)
 					{
-						charOne.getAttackAbility().attackPart(charTwo, charTwo.getPart(3), BASE_DAMAGE);
+						charOne->getAttackAbility().getAbilities().attackPart(*charTwo, charTwo->getPart(3), BASE_DAMAGE);
 					}
 					break;
 
 					case(4):
-					if(charOne.getAttackAbility() != NULL)
+					if(&charOne->getAttackAbility() != NULL)
 					{
-						charOne.getAttackAbility().attackPart(charTwo, charTwo.getPart(4), BASE_DAMAGE);
+						charOne->getAttackAbility().getAbilities().attackPart(*charTwo, charTwo->getPart(4), BASE_DAMAGE);
 					}
 					break;
 
 					case(5):
-					if(charOne.getAttackAbility() != NULL)
+					if(&charOne->getAttackAbility() != NULL)
 					{
-						charOne.getAttackAbility().attackPart(charTwo, charTwo.getPart(5), BASE_DAMAGE);
+						charOne->getAttackAbility().getAbilities().attackPart(*charTwo, charTwo->getPart(5), BASE_DAMAGE);
 					}
 					break;
 
 					case(6):
-					if(charOne.getAttackAbility() != NULL)
+					if(&charOne->getAttackAbility() != NULL)
 					{
-						charOne.getAttackAbility().attackPart(charTwo, charTwo.getPart(6), BASE_DAMAGE);
+						charOne->getAttackAbility().getAbilities().attackPart(*charTwo, charTwo->getPart(6), BASE_DAMAGE);
 					}
 					break;
 
@@ -99,36 +99,36 @@ int menu(character charOne, character charTwo)
 			break;
 
 			case(5):
-			if(charOne.getHealAbility() != NULL)
+			if(&charOne->getHealAbility() != NULL)
 			{
 				std::cout << "Potential healing targets (player will heal same amount regardless of chosen part): " << std::endl;
-			charOne.printFullInfo();
+			charOne->printFullInfo();
 			std::cout << "1: ArmOne \n 2: ArmTwo \n 3: LegOne \n 4: LegTwo \n 5: Chest \n 6: Head \n";
 			std::cin >> targetChoice;
 			switch(targetChoice)
 			{
 				case(1):
-				charOne.getHealAbility().healPart(charOne, charOne.getPart(1), BASE_HEALING);
+				charOne->getHealAbility().getAbilities().healPart(*charOne, charOne->getPart(1), BASE_HEALING);
 				break;
 
 				case(2):
-				charOne.getHealAbility().healPart(charOne, charOne.getPart(2), BASE_HEALING);
+				charOne->getHealAbility().getAbilities().healPart(*charOne, charOne->getPart(2), BASE_HEALING);
 				break;
 
 				case(3):
-				charOne.getHealAbility().healPart(charOne, charOne.getPart(3), BASE_HEALING);
+				charOne->getHealAbility().getAbilities().healPart(*charOne, charOne->getPart(3), BASE_HEALING);
 				break;
 
 				case(4):
-				charOne.getHealAbility().healPart(charOne, charOne.getPart(4), BASE_HEALING);
+				charOne->getHealAbility().getAbilities().healPart(*charOne, charOne->getPart(4), BASE_HEALING);
 				break;
 
 				case(5):
-				charOne.getHealAbility().healPart(charOne, charOne.getPart(5), BASE_HEALING);
+				charOne->getHealAbility().getAbilities().healPart(*charOne, charOne->getPart(5), BASE_HEALING);
 				break;
 
 				case(6):
-				charOne.getHealAbility().healPart(charOne, charOne.getPart(6), BASE_HEALING);
+				charOne->getHealAbility().getAbilities().healPart(*charOne, charOne->getPart(6), BASE_HEALING);
 				break;
 
 				default:
@@ -145,50 +145,50 @@ int menu(character charOne, character charTwo)
 
 			case(6):
 			std::cout << "Potential targets: " << std::endl;
-			charOne.printFullInfo();
+			charOne->printFullInfo();
 			std::cout << "1: ArmOne \n 2: ArmTwo \n 3: LegOne \n 4: LegTwo \n 5: Chest \n 6: Head \n";
 			std::cin >> targetChoice;
 			switch(targetChoice)
 			{
 				case(1):
-				if(charTwo.getAttackAbility() != NULL)
+				if(&charTwo->getAttackAbility() != NULL)
 					{
-						charTwo.getAttackAbility().attackPart(charOne, charOne.getPart(1), BASE_DAMAGE);
+						charTwo->getAttackAbility().getAbilities().attackPart(*charOne, charOne->getPart(1), BASE_DAMAGE);
 					}
 				break;
 
 				case(2):
-				if(charTwo.getAttackAbility() != NULL)
+				if(&charTwo->getAttackAbility() != NULL)
 					{
-						charTwo.getAttackAbility().attackPart(charOne, charOne.getPart(2), BASE_DAMAGE);
+						charTwo->getAttackAbility().getAbilities().attackPart(*charOne, charOne->getPart(2), BASE_DAMAGE);
 					}
 				break;
 
 				case(3):
-				if(charTwo.getAttackAbility() != NULL)
+				if(&charTwo->getAttackAbility() != NULL)
 					{
-						charTwo.getAttackAbility().attackPart(charOne, charOne.getPart(3), BASE_DAMAGE);
+						charTwo->getAttackAbility().getAbilities().attackPart(*charOne, charOne->getPart(3), BASE_DAMAGE);
 					}
 				break;
 
 				case(4):
-				if(charTwo.getAttackAbility() != NULL)
+				if(&charTwo->getAttackAbility() != NULL)
 					{
-						charTwo.getAttackAbility().attackPart(charOne, charOne.getPart(4), BASE_DAMAGE);
+						charTwo->getAttackAbility().getAbilities().attackPart(*charOne, charOne->getPart(4), BASE_DAMAGE);
 					}
 				break;
 
 				case(5):
-				if(charTwo.getAttackAbility() != NULL)
+				if(&charTwo->getAttackAbility() != NULL)
 					{
-						charTwo.getAttackAbility().attackPart(charOne, charOne.getPart(5), BASE_DAMAGE);
+						charTwo->getAttackAbility().getAbilities().attackPart(*charOne, charOne->getPart(5), BASE_DAMAGE);
 					}
 				break;
 
 				case(6):
-				if(charTwo.getAttackAbility() != NULL)
+				if(&charTwo->getAttackAbility() != NULL)
 					{
-						charTwo.getAttackAbility().attackPart(charOne, charOne.getPart(6), BASE_DAMAGE);
+						charTwo->getAttackAbility().getAbilities().attackPart(*charOne, charOne->getPart(6), BASE_DAMAGE);
 					}
 				break;
 
@@ -199,36 +199,36 @@ int menu(character charOne, character charTwo)
 			break;
 
 			case(7):
-			if(charTwo.getHealAbility() != NULL)
+			if(&charTwo->getHealAbility() != NULL)
 			{
 				std::cout << "Potential healing targets (player will heal same amount regardless of chosen part): " << std::endl;
-			charTwo.printFullInfo();
+			charTwo->printFullInfo();
 			std::cout << "1: ArmOne \n 2: ArmTwo \n 3: LegOne \n 4: LegTwo \n 5: Chest \n 6: Head \n";
 			std::cin >> targetChoice;
 			switch(targetChoice)
 			{
 				case(1):
-				charTwo.getHealAbility().healPart(charTwo, charTwo.getPart(1), BASE_HEALING);
+				charTwo->getHealAbility().getAbilities().healPart(*charTwo, charTwo->getPart(1), BASE_HEALING);
 				break;
 
 				case(2):
-				charTwo.getHealAbility().healPart(charTwo, charTwo.getPart(2), BASE_HEALING);
+				charTwo->getHealAbility().getAbilities().healPart(*charTwo, charTwo->getPart(2), BASE_HEALING);
 				break;
 
 				case(3):
-				charTwo.getHealAbility().healPart(charTwo, charTwo.getPart(3), BASE_HEALING);
+				charTwo->getHealAbility().getAbilities().healPart(*charTwo, charTwo->getPart(3), BASE_HEALING);
 				break;
 
 				case(4):
-				charTwo.getHealAbility().healPart(charTwo, charTwo.getPart(4), BASE_HEALING);
+				charTwo->getHealAbility().getAbilities().healPart(*charTwo, charTwo->getPart(4), BASE_HEALING);
 				break;
 
 				case(5):
-				charTwo.getHealAbility().healPart(charTwo, charTwo.getPart(5), BASE_HEALING);
+				charTwo->getHealAbility().getAbilities().healPart(*charTwo, charTwo->getPart(5), BASE_HEALING);
 				break;
 
 				case(6):
-				charTwo.getHealAbility().healPart(charTwo, charTwo.getPart(6), BASE_HEALING);
+				charTwo->getHealAbility().getAbilities().healPart(*charTwo, charTwo->getPart(6), BASE_HEALING);
 				break;
 
 				default:
@@ -291,11 +291,25 @@ int main()
 	character* playerOne = new character(MAX_HEALTH, DEF_DAMAGE, DEF_DEFENSE, *playOneArmOne, *playOneArmTwo, *playOneLegOne, *playOneLegTwo, *playOneChest, *playOneHead, playOneName);
 	character* playerTwo = new character(MAX_HEALTH, OFF_DAMAGE, OFF_DEFENSE, *playTwoArmOne, *playTwoArmTwo, *playTwoLegOne, *playTwoLegTwo, *playTwoChest, *playTwoHead, playTwoName);
 	menu(playerOne, playerTwo);
-
-
-
-
-
-
+	delete playerOne;
+	playerOne = nullptr;
+	delete playerTwo;
+	playerTwo = nullptr;
+	delete playOneArms;
+	playOneArms = nullptr;
+	delete playTwoArms;
+	playTwoArms = nullptr;
+	delete playOneLegs;
+	playOneLegs = nullptr;
+	delete playTwoLegs;
+	playTwoLegs = nullptr;
+	delete playOneChest;
+	playOneChest = nullptr;
+	delete playOneHead;
+	playOneHead = nullptr;
+	delete playTwoChest;
+	playTwoChest = nullptr;
+	delete playTwoHead;
+	playTwoHead = nullptr;
 	return 0;
 }
