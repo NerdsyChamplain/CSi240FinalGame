@@ -1,9 +1,14 @@
 #pragma once
 #include <string>
 #include <iostream>
+#include <fstream>
 #include "ability.h"
 
+
+//forward declaration so classes can reference ability
 class ability;
+
+//author: Joshua Scalia, all code included is my own
 
 class part
 {

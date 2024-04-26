@@ -1,6 +1,8 @@
 #pragma once
 #include "character.h"
+//author: Joshua Scalia, all code included is my own
 
+//using forward declarations so classes can work
 class part;
 
 class character;
@@ -24,14 +26,14 @@ public:
 	//deconstructor
 	~ability();
 	//functions to interact with parts, through damage and support effects
-	void attackPart(character, part, int);
-	void healPart(character, part, int);
+	void attackPart(character*, part*, int);
+	void healPart(character*, part*, int);
 	//information displayer
 	std::string printAbility();
 	//functions to get booleans
 	bool getCanAttack();
 	bool getCanHeal();
-	//FRIENDSHIP : )
+	//FRIENDSHIP : ), classes that are friends of this class
 	friend class part;
 	friend class character;
 	friend class arm;
